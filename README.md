@@ -4,7 +4,7 @@ Colr is a Java based color tool.
 
 ## Getting Started
 
-Download the .jar file from [here](https://github.com/Brainker/lighter/raw/master/artifacts/lighter.jar)
+Download the .jar file from [here](https://github.com/Brainker/colr/raw/master/artifacts/colr.jar)
 
 ### Installing
 

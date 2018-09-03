@@ -1,9 +1,10 @@
 package lighter.core.schemes;
 
 import lighter.core.models.Color;
-import lighter.core.models.Scheme;
+import lighter.core.models.ColorScheme;
 
-public final class MaterialScheme extends Scheme {
+public final class MaterialColorScheme extends ColorScheme {
+
     public static final Color RED = new Color(0xFFF44336);
     public static final Color PINK = new Color(0xFFE91E63);
     public static final Color PURPLE = new Color(0xFF9C27B0);
@@ -24,7 +25,7 @@ public final class MaterialScheme extends Scheme {
     public static final Color GREY = new Color(0xFF9E9E9E);
     public static final Color BLUE_GREY = new Color(0xFF607D8B);
 
-    private MaterialScheme() throws IllegalAccessException {
+    private MaterialColorScheme() throws IllegalAccessException {
         // private constructor to prevent initializing
     }
 }

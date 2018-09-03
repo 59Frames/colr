@@ -1,6 +1,8 @@
 package lighter.core.models;
 
-public class Color {
+import java.io.Serializable;
+
+public class Color implements Serializable {
     private final int VALUE;
 
     public Color(int value) {

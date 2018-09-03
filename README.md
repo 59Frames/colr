@@ -35,7 +35,7 @@ public class Main {
 
 ## Authors
 
-Daniel Seifert** - *Initial work* - [Brainker](https://github.com/Brainker)
+**Daniel Seifert** - *Initial work* - [Brainker](https://github.com/Brainker)
 
 ## Acknowledgments
 

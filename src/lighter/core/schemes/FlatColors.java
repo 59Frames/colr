@@ -3,7 +3,7 @@ package lighter.core.schemes;
 import lighter.core.models.Color;
 import lighter.core.models.ColorScheme;
 
-public final class FlatColorScheme extends ColorScheme {
+public final class FlatColors extends ColorScheme {
 
     public static final Color TURQUOISE = new Color(0xFF1abc9c);
     public static final Color EMERALD = new Color(0xFF2ecc71);
@@ -26,7 +26,7 @@ public final class FlatColorScheme extends ColorScheme {
     public static final Color SILVER = new Color(0xFFbdc3c7);
     public static final Color ASBESTOS = new Color(0xFF7f8c8d);
 
-    public FlatColorScheme() throws IllegalAccessException {
+    public FlatColors() throws IllegalAccessException {
         // private constructor to prevent initializing
     }
 }

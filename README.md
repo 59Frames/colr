@@ -14,19 +14,26 @@ A step by step series of examples that tell you how to get a development env run
 
 02. Add .jar file to project as a library
 
-03. Use it!
+03. Use it like this!
 
-```
-Give the example
-```
+```java
+import lighter.core.models.Color;
+import lighter.core.schemes.FlatColors;
+import lighter.core.schemes.MaterialColors;
+import lighter.core.schemes.NatureColors;
 
-And repeat
+public class Main {
+    public static void main(String[] args) {
+        Color amber = MaterialColors.AMBER;
+        Color grass = NatureColors.GRASS;
+        Color alizarin = FlatColors.ALIZARIN;
 
+        System.out.println(amber);    // Prints out: lighter.core.models.Color[rgba(255, 193, 7, 0)]
+        System.out.println(grass);    // Prints out: lighter.core.models.Color[rgba(72, 107, 0, 0)]
+        System.out.println(alizarin); // Prints out: lighter.core.models.Color[rgba(231, 76, 60, 0)]
+    }
+}
 ```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 

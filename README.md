@@ -1,10 +1,10 @@
-# Lighter
+# Colr
 
-Lighter is a Java based color tool.
+Colr is a Java based color tool.
 
 ## Getting Started
 
-Download the .jar file from [here](https://github.com/Brainker/lighter/raw/master/artifacts/lighter.jar)
+Download the .jar file from [here](https://github.com/Brainker/colr/raw/master/artifacts/colr.jar)
 
 ### Installing
 
@@ -17,10 +17,10 @@ A step by step series of examples that tell you how to get a development env run
 03. Use it like this!
 
 ```java
-import lighter.core.models.Color;
-import lighter.core.schemes.FlatColors;
-import lighter.core.schemes.MaterialColors;
-import lighter.core.schemes.NatureColors;
+import colr.core.models.Color;
+import colr.core.schemes.FlatColors;
+import colr.core.schemes.MaterialColors;
+import colr.core.schemes.NatureColors;
 
 public class Main {
     public static void main(String[] args) {
@@ -28,9 +28,9 @@ public class Main {
         Color grass = NatureColors.GRASS;
         Color alizarin = FlatColors.ALIZARIN;
 
-        System.out.println(amber);    colr
-        Sycolrt.println(grass);    colr
-        System.out.println(alizarin); colr
+        System.out.println(amber);
+        System.out.println(grass);
+        System.out.println(alizarin);
     }
 }
 ```

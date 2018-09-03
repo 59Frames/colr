@@ -39,6 +39,4 @@ Daniel Seifert** - *Initial work* - [Brainker](https://github.com/Brainker)
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Inspirated by Flutters Colors class

@@ -8,8 +8,6 @@ Download the .jar file from [here](https://github.com/Brainker/colr/raw/master/a
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
 01. Download .jar
 
 02. Add .jar file to project as a library
@@ -38,10 +36,6 @@ public class Main {
 ## Authors
 
 Daniel Seifert** - *Initial work* - [Brainker](https://github.com/Brainker)
-
-## License
-
-This prcolrs licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
 

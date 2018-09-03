@@ -4,7 +4,7 @@ Lighter is a Java based color tool.
 
 ## Getting Started
 
-Download the .jar file from <a>here</a>
+Download the .jar file from [here](https://github.com/Brainker/lighter/raw/master/artifacts/lighter.jar)
 
 ### Installing
 

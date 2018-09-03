@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/lighter.iml" filepath="$PROJECT_DIR$/lighter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/colr.iml" filepath="$PROJECT_DIR$/colr.iml" />
     </modules>
   </component>
 </project>

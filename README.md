@@ -28,20 +28,20 @@ public class Main {
         Color grass = NatureColors.GRASS;
         Color alizarin = FlatColors.ALIZARIN;
 
-        System.out.println(amber);    // Prints out: lighter.core.models.Color[rgba(255, 193, 7, 0)]
-        System.out.println(grass);    // Prints out: lighter.core.models.Color[rgba(72, 107, 0, 0)]
-        System.out.println(alizarin); // Prints out: lighter.core.models.Color[rgba(231, 76, 60, 0)]
+        System.out.println(amber);    colr
+        Sycolrt.println(grass);    colr
+        System.out.println(alizarin); colr
     }
 }
 ```
 
 ## Authors
 
-* **Daniel Seifert** - *Initial work* - [Brainker](https://github.com/Brainker)
+colriel Seifert** - *Initial work* - [Brainker](https://github.com/Brainker)
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This prcolrs licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
 

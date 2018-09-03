@@ -1,7 +1,7 @@
-package lighter.core.schemes;
+package colr.core.schemes;
 
-import lighter.core.models.Color;
-import lighter.core.models.ColorScheme;
+import colr.core.models.Color;
+import colr.core.models.ColorScheme;
 
 public final class NatureColors extends ColorScheme {
 

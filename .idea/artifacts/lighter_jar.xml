@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="lighter:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/lighter_jar</output-path>
-    <root id="archive" name="lighter.jar">
-      <element id="module-output" name="lighter" />
-    </root>
-  </artifact>
-</component>

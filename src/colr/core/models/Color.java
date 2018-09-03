@@ -1,4 +1,4 @@
-package lighter.core.models;
+package colr.core.models;
 
 import java.io.Serializable;
 

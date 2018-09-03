@@ -26,9 +26,9 @@ public class Main {
         Color grass = NatureColors.GRASS;
         Color alizarin = FlatColors.ALIZARIN;
 
-        System.out.println(amber);
-        System.out.println(grass);
-        System.out.println(alizarin);
+        System.out.println(amber);          // prints out: colr.core.models.Color[rgba(255, 193, 7, 0)]
+        System.out.println(grass);          // prints out:colr.core.models.Color[rgba(72, 107, 0, 0)]
+        System.out.println(alizarin);       // prints out: colr.core.models.Color[rgba(231, 76, 60, 0)]
     }
 }
 ```

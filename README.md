@@ -1,6 +1,6 @@
 # Colr
 
-Colr is a Java based color tool.
+Colr is an revolutionary Java based color tool.
 
 ## Getting Started
 

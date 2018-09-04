@@ -14,9 +14,13 @@ public class Color implements Serializable {
         return new Color(value);
     }
 
+    public int value(){
+        return this.VALUE;
+    }
+
     public int alpha(){
         int val = (0xff000000 & VALUE) >> 24;
-        return val < 0 ? 0 : val;
+        return val < 0 ? 0xFF : val;
     }
 
     public int red(){

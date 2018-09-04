@@ -69,4 +69,4 @@ Here are just a few examples:
 
 ## Acknowledgments
 
-* Inspirated by Flutters Colors class
+* Inspired by Flutters Colors class

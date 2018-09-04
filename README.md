@@ -37,7 +37,7 @@ public class Main {
 
 If you'd like to see all palettes, please have a look at the [COLORS.md](COLORS.md) file.
 
-Here is one example:
+Here are some examples:
 
 ### Material colors
 
@@ -49,17 +49,19 @@ Here is one example:
 - ![#2196F3](https://placehold.it/20/2196F3/000000?text=+) BLUE       
 - ![#03A9F4](https://placehold.it/20/03A9F4/000000?text=+) LIGHT_BLUE 
 - ![#00BCD4](https://placehold.it/20/00BCD4/000000?text=+) CYAN       
-- ![#009688](https://placehold.it/20/009688/000000?text=+) TEAL       
-- ![#4CAF50](https://placehold.it/20/4CAF50/000000?text=+) GREEN      
-- ![#8BC34A](https://placehold.it/20/8BC34A/000000?text=+) LIGHT_GREEN
-- ![#CDDC39](https://placehold.it/20/CDDC39/000000?text=+) LIME       
-- ![#FFEB3B](https://placehold.it/20/FFEB3B/000000?text=+) YELLOW     
-- ![#FFC107](https://placehold.it/20/FFC107/000000?text=+) AMBER      
-- ![#FF9800](https://placehold.it/20/FF9800/000000?text=+) ORANGE     
-- ![#FF5722](https://placehold.it/20/FF5722/000000?text=+) DEEP_ORANGE
-- ![#795548](https://placehold.it/20/795548/000000?text=+) BROWN      
-- ![#9E9E9E](https://placehold.it/20/9E9E9E/000000?text=+) GREY       
-- ![#607D8B](https://placehold.it/20/607D8B/000000?text=+) BLUE_GREY
+- [see more...](COLORS.md)
+
+### Nature colors:
+
+- ![#E6D72A](https://placehold.it/20/E6D72A/000000?text=+) CANARY_YELLOW
+- ![#F4CC70](https://placehold.it/20/F4CC70/000000?text=+) SANDSTONE
+- ![#D9B44A](https://placehold.it/20/D9B44A/000000?text=+) SUNGLOW
+- ![#E1b16A](https://placehold.it/20/E1b16A/000000?text=+) WARM
+- ![#C99E10](https://placehold.it/20/C99E10/000000?text=+) GOLD
+- ![#FFBB00](https://placehold.it/20/FFBB00/000000?text=+) SUNFLOWER
+- ![#F98866](https://placehold.it/20/F98866/000000?text=+) PETAL
+- ![#CE5A57](https://placehold.it/20/CE5A57/000000?text=+) PUNCH
+- [see more...](COLORS.md)
 
 ## Authors
 

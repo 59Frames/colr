@@ -1,5 +1,7 @@
 package colr.core.models;
 
+import colr.extensions.ColorUtil;
+
 import java.io.Serializable;
 
 public class Color implements Serializable {
@@ -65,6 +67,6 @@ public class Color implements Serializable {
 
     @Override
     public String toString() {
-        return Color.class.getName()+"[rgba(" + red() + ", " + green() + ", " + blue() + ", " + alpha() + ")]";
+        return Color.class.getName()+"[" + ColorUtil.hexaDeciCodeWithAlpha(this) + "]";
     }
 }

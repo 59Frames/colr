@@ -26,9 +26,9 @@ public class Main {
         Color grass = NatureColors.GRASS;
         Color alizarin = FlatColors.ALIZARIN;
 
-        System.out.println(amber);      // prints out: colr.core.models.Color[rgba(255, 193, 7, 0)]
-        System.out.println(grass);      // prints out: colr.core.models.Color[rgba(72, 107, 0, 0)]
-        System.out.println(alizarin);   // prints out: colr.core.models.Color[rgba(231, 76, 60, 0)]
+        System.out.println(amber);      // colr.core.models.Color[0xFFFFC107]
+        System.out.println(grass);      // colr.core.models.Color[0xFF486B00]
+        System.out.println(alizarin);   // colr.core.models.Color[0xFFE74C3C]
     }
 }
 ```

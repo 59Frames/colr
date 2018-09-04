@@ -27,7 +27,7 @@ public final class NatureColors extends ColorScheme {
     public static final Color DEEP_AQUA         = new Color(0xFF003B46);
     public static final Color OCEAN             = new Color(0xFF07575B);
     public static final Color WAVE              = new Color(0xFF66A5AD);
-    public static final Color SEAFOAM           = new Color(0xFFC4DFE6);
+    public static final Color SEA_FOAM          = new Color(0xFFC4DFE6);
     public static final Color FOREST_GREEN      = new Color(0xFF2E4600);
     public static final Color GRASS             = new Color(0xFF486B00);
     public static final Color LIME              = new Color(0xFFA2C523);

@@ -13,7 +13,9 @@ Download the .jar file from [here](https://github.com/Brainker/colr/raw/master/a
 
 02. Add .jar file to project as a library
 
-03. Use it like this!
+
+### Usage
+- Use it like this!
 
 ```java
 import colr.core.models.Color;
@@ -32,6 +34,32 @@ public class Main {
         System.out.println(alizarin);   // colr.core.models.Color[0xFFE74C3C]
     }
 }
+```
+- Or like this!
+
+```Java
+import colr.core.schemes.NatureColors;
+
+import javax.swing.*;
+
+public class Main {
+    public static void main(String[] args) {
+        JFrame frame = new JFrame("");
+
+        JPanel panel = new JPanel();
+        panel.setBackground(NatureColors.DEEP_AQUA.toAWTColor());   // sets the background to NatureColors.DEEP_AQUA
+
+        JButton button = new JButton("Test");
+        button.setBackground(NatureColors.SEA_FOAM.toAWTColor());   // sets the background to NatureColors.SEA_FOAM
+
+        panel.add(button);
+
+        frame.add(panel);
+        frame.pack();
+        frame.setVisible(true);
+    }
+}
+
 ```
 
 ## Palettes

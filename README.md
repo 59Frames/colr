@@ -1,6 +1,7 @@
 # Colr
 
-Colr is an revolutionary Java based color tool.
+Colr is an revolutionary Java based color tool which helps you getting the perfect color for every moment.
+Every color from the integrated palettes are handpicked by me.
 
 ## Getting Started
 

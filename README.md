@@ -8,8 +8,6 @@ Download the .jar file from [here](https://github.com/Brainker/colr/raw/master/a
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
 01. Download .jar
 
 02. Add .jar file to project as a library
@@ -28,23 +26,17 @@ public class Main {
         Color grass = NatureColors.GRASS;
         Color alizarin = FlatColors.ALIZARIN;
 
-        System.out.println(amber);
-        System.out.println(grass);
-        System.out.println(alizarin);
+        System.out.println(amber);      // prints out: colr.core.models.Color[rgba(255, 193, 7, 0)]
+        System.out.println(grass);      // prints out:colr.core.models.Color[rgba(72, 107, 0, 0)]
+        System.out.println(alizarin);   // prints out: colr.core.models.Color[rgba(231, 76, 60, 0)]
     }
 }
 ```
 
 ## Authors
 
-colriel Seifert** - *Initial work* - [Brainker](https://github.com/Brainker)
-
-## License
-
-This prcolrs licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+**Daniel Seifert** - *Initial work* - [Brainker](https://github.com/Brainker)
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Inspirated by Flutters Colors class

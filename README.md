@@ -6,6 +6,8 @@ Colr is a Java based color tool.
 
 Download the .jar file from [here](https://github.com/Brainker/colr/raw/master/artifacts/colr.jar)
 
+If you want to check out the existing colors, click the COLORS.md file or just [here](COLORS.md)
+
 ### Installing
 
 01. Download .jar

@@ -37,7 +37,7 @@ public class Main {
 
 If you'd like to see all palettes, please have a look at the [COLORS.md](COLORS.md) file.
 
-Here are some examples:
+Here are just a few examples:
 
 ### Material colors
 

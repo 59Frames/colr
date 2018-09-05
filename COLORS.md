@@ -2,7 +2,7 @@
 
 ## Default scheme colors:
 
-- ![#000000](https://placehold.it/20/) TRANSPARENT  
+- TRANSPARENT  
 - ![#000000](https://placehold.it/20/000000/000000?text=+) BLACK  
 - ![#FFFFFF](https://placehold.it/20/FFFFFF/000000?text=+) WHITE  
 

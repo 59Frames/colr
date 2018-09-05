@@ -19,9 +19,7 @@ Download the .jar file from [here](https://github.com/Brainker/colr/raw/master/a
 
 ```java
 import colr.core.models.Color;
-import colr.core.schemes.FlatColors;
-import colr.core.schemes.MaterialColors;
-import colr.core.schemes.NatureColors;
+import colr.core.schemes.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -107,7 +105,7 @@ Here are just a few examples:
 
 - ![#E6D72A](https://placehold.it/20/E6D72A/000000?text=+) CANARY_YELLOW
 - ![#F4CC70](https://placehold.it/20/F4CC70/000000?text=+) SANDSTONE
-- ![#D9B44A](https://placehold.it/20/D9B44A/000000?text=+) SUNGLOW
+- ![#D9B44A](https://placehold.it/20/D9B44A/000000?text=+) SUN_GLOW
 - ![#E1b16A](https://placehold.it/20/E1b16A/000000?text=+) WARM
 - ![#C99E10](https://placehold.it/20/C99E10/000000?text=+) GOLD
 - ![#FFBB00](https://placehold.it/20/FFBB00/000000?text=+) SUNFLOWER

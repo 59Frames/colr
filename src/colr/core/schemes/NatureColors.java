@@ -55,7 +55,7 @@ public final class NatureColors extends ColorScheme {
     public static final Color LAVENDER_GRAY     = new Color(0xFF9A9EAB);
     public static final Color DARK_NAVY         = new Color(0xFF011A27);
     public static final Color BLUEBERRY         = new Color(0xFF063852);
-    public static final Color SUNGLOW           = new Color(0xFFD9B44A);
+    public static final Color SUN_GLOW           = new Color(0xFFD9B44A);
 
     public NatureColors() throws IllegalAccessException {
         // private constructor to prevent initializing

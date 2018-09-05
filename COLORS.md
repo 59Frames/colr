@@ -1,5 +1,11 @@
 # Colors
 
+## Default scheme colors:
+
+- ![#000000](https://placehold.it/20/) TRANSPARENT  
+- ![#000000](https://placehold.it/20/000000/000000?text=+) BLACK  
+- ![#FFFFFF](https://placehold.it/20/FFFFFF/000000?text=+) WHITE  
+
 ## Material colors:
 
 - ![#F44336](https://placehold.it/20/f44336/000000?text=+) RED      

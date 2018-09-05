@@ -35,7 +35,7 @@ public class Main {
     }
 }
 ```
-- Or like this!
+- like this!
 
 ```java
 import colr.core.schemes.NatureColors;
@@ -60,6 +60,28 @@ public class Main {
     }
 }
 
+```
+
+- or like this!
+```java
+import colr.core.models.ARGB;
+import colr.core.models.Color;
+import colr.extensions.ColorUtil;
+
+public class Main {
+    public static void main(String[] args) {
+        Color color = new Color(0xFF2C7873);                //Creating a new Color
+        ARGB argb = ColorUtil.argbOf(color);                //Getting the ARGB values of a color in a new ARGB-Object
+        int colorValue = ColorUtil.valueOf(color);          //Get the int value of a color
+        String hashHexCode = ColorUtil.hashHexCode(color);  //Get the hash code
+        String hexDecCode = ColorUtil.hexaDeciCode(color);  //Get the Hex Decimal Code
+
+        System.out.println(argb);                           //Prints out: colr.core.models.ARGB[alpha=255, red=44, green=120, blue=115]
+        System.out.println(colorValue);                     //Prints out: -13862797
+        System.out.println(hashHexCode);                    //Prints out: #2C7873
+        System.out.println(hexDecCode);                     //Prints out: 0x2C7873
+    }
+}
 ```
 
 ## Palettes

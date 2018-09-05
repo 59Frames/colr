@@ -1,9 +1,9 @@
 package colr.core.schemes;
 
 import colr.core.models.Color;
-import colr.core.models.ColorScheme;
+import colr.core.models.ColorCollection;
 
-public final class NatureColors extends ColorScheme {
+public final class NatureColors extends ColorCollection {
 
     public static final Color FADED_NAVY        = new Color(0xFF444C5C);
     public static final Color PUNCH             = new Color(0xFFCE5A57);

@@ -1,9 +1,9 @@
 package colr.core.schemes;
 
 import colr.core.models.Color;
-import colr.core.models.ColorScheme;
+import colr.core.models.ColorCollection;
 
-public final class MaterialColors extends ColorScheme {
+public final class MaterialColors extends ColorCollection {
 
     public static final Color RED           = new Color(0xFFF44336);
     public static final Color PINK          = new Color(0xFFE91E63);

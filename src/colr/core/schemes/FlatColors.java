@@ -1,9 +1,9 @@
 package colr.core.schemes;
 
 import colr.core.models.Color;
-import colr.core.models.ColorScheme;
+import colr.core.models.ColorCollection;
 
-public final class FlatColors extends ColorScheme {
+public final class FlatColors extends ColorCollection {
 
     public static final Color TURQUOISE     = new Color(0xFF1abc9c);
     public static final Color EMERALD       = new Color(0xFF2ecc71);

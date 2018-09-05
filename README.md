@@ -27,9 +27,9 @@ public class Main {
         Color grass = NatureColors.GRASS;
         Color alizarin = FlatColors.ALIZARIN;
 
-        System.out.println(amber);      // colr.core.models.Color[0xFFFFC107]
-        System.out.println(grass);      // colr.core.models.Color[0xFF486B00]
-        System.out.println(alizarin);   // colr.core.models.Color[0xFFE74C3C]
+        System.out.println(amber);      // Prints out: colr.core.models.Color[0xFFFFC107]
+        System.out.println(grass);      // Prints out: colr.core.models.Color[0xFF486B00]
+        System.out.println(alizarin);   // Prints out: colr.core.models.Color[0xFFE74C3C]
     }
 }
 ```
@@ -79,6 +79,31 @@ public class Main {
         System.out.println(colorValue);                     //Prints out: -13862797
         System.out.println(hashHexCode);                    //Prints out: #2C7873
         System.out.println(hexDecCode);                     //Prints out: 0x2C7873
+    }
+}
+```
+
+- or maybe even like this!
+
+```java
+import colr.core.models.Color;
+import colr.core.models.Palette;
+
+public class Main {
+    public static void main(String[] args){
+        // Creates a new Palette object.
+        // A Palette object can store a max. amount of 6 Colors.
+        Palette palette = new Palette("BambooForest");
+        
+        palette.add(new Color(0xFFFFF6EE));
+        palette.add(new Color(0xFFDB8360));
+        palette.add(new Color(0xFFB2483D));
+        palette.add(new Color(0xFF582F3B));
+        palette.add(new Color(0xFF97B98A));
+        
+        Color color = palette.get(0);
+        
+        System.out.println(color);  // Prints out: colr.core.models.Color[0xFFFFF6EE]
     }
 }
 ```

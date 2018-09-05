@@ -63,6 +63,7 @@ public class Main {
 ```
 
 - or like this!
+
 ```java
 import colr.core.models.ARGB;
 import colr.core.models.Color;

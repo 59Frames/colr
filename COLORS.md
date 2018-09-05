@@ -27,6 +27,7 @@
 - ![#795548](https://placehold.it/20/795548/000000?text=+) BROWN      
 - ![#9E9E9E](https://placehold.it/20/9E9E9E/000000?text=+) GREY       
 - ![#607D8B](https://placehold.it/20/607D8B/000000?text=+) BLUE GREY
+- ![#FEFEFE](https://placehold.it/20/FEFEFE/000000?text=+) WHITE
 
 ## Flat colors:
 

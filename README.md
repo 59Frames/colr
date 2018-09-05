@@ -37,7 +37,7 @@ public class Main {
 ```
 - Or like this!
 
-```Java
+```java
 import colr.core.schemes.NatureColors;
 
 import javax.swing.*;

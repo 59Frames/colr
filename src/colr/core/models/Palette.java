@@ -6,7 +6,7 @@ public class Palette {
     private String title;
 
     public Palette(String title) {
-        this.colors = new Color[6];
+        this.colors = new Color[5];
         this.title = title;
     }
 

@@ -15,7 +15,7 @@ Download the .jar file from [here](https://github.com/Brainker/colr/raw/master/a
 
 
 ### Usage
-- Use it like this!
+- How to use the *Colors classes
 
 ```java
 import colr.core.models.Color;
@@ -33,7 +33,7 @@ public class Main {
     }
 }
 ```
-- like this!
+- How to use it in an AWT application
 
 ```java
 import colr.core.schemes.NatureColors;
@@ -60,7 +60,7 @@ public class Main {
 
 ```
 
-- or like this!
+- How to use the ColorUtil class
 
 ```java
 import colr.core.models.ARGB;
@@ -83,7 +83,7 @@ public class Main {
 }
 ```
 
-- or maybe even like this!
+- How to use a palette
 
 ```java
 import colr.core.models.Color;
@@ -104,6 +104,37 @@ public class Main {
         Color color = palette.get(0);
         
         System.out.println(color);  // Prints out: colr.core.models.Color[0xFFFFF6EE]
+    }
+}
+```
+
+- How to use a ColorTheme
+
+```java
+import colr.core.models.ColorTheme;
+import colr.core.schemes.FlatColors;
+import colr.core.schemes.NatureColors;
+
+public class Main {
+    public static void main(String[] args) {
+        ColorTheme fullyImplementedTheme = new ColorTheme.Builder()
+                .primary(FlatColors.WISTERIA)
+                .secondary(FlatColors.AMETHYST)
+                .accent(FlatColors.PETER_RIVER)
+                .font(FlatColors.CLOUDS)
+                .icon(FlatColors.CLOUDS)
+                .build();
+
+        // If the theme hasn't been fully implemented, it creates a theme based on the following rules:
+        // 1. If no primary color is set, it takes a default color. Currently it is 0xFF9B59B6
+        // 2. If no secondary color is set, it takes the primary color and makes it brighter by a given value. Currently by 32
+        // 3. If no accent color is set, it creates a new color from the inverted primary color value
+        // 4. If no font color is set, it uses the default font color of 0xFF262626
+        // 5. If no icon color is set, it uses the default icon color of 0xFFFEFEFE
+        ColorTheme halfImplementedTheme = new ColorTheme.Builder()
+                .primary(NatureColors.CRIMSON)
+                .font(NatureColors.WHITE)
+                .build();
     }
 }
 ```

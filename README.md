@@ -108,7 +108,7 @@ public class Main {
 }
 ```
 
-## Integrated palettes
+## Integrated colors
 
 If you'd like to see all palettes, please have a look at the [COLORS.md](COLORS.md) file.
 

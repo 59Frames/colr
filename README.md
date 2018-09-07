@@ -135,6 +135,8 @@ public class Main {
                 .primary(NatureColors.CRIMSON)
                 .font(NatureColors.WHITE)
                 .build();
+        
+        ColorTheme notImplementedTheme = new ColorTheme.Builder().build();
     }
 }
 ```

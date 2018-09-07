@@ -8,7 +8,7 @@ public class ColorTheme {
     public Color icon;
 
     private ColorTheme(){
-
+        // private constructor to prevent initializing
     }
 
     private ColorTheme(Color primary, Color secondary, Color accent, Color font, Color icon) {
@@ -38,6 +38,10 @@ public class ColorTheme {
 
         public Builder(){
             primary = null;
+            secondary = null;
+            accent = null;
+            font = null;
+            icon = null;
         }
 
         public Builder primary(Color color){

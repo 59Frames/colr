@@ -19,6 +19,18 @@ public class Color implements Serializable {
         return new Color(value);
     }
 
+    public static Color fromARGB(ARGB argb){
+        if (!(
+                (0 <= argb.alpha() && argb.alpha() < 256)
+                && (0 <= argb.red() && argb.red() < 256)
+                && (0 <= argb.green() && argb.green() < 256)
+                && (0 <= argb.blue() && argb.blue() < 256)
+        )) return new Color(0xFFFFFFFF);
+
+        int value = (((argb.alpha() & 0xff) << 24) | ((argb.red() & 0xff) << 16) | ((argb.green() & 0xff) << 8) | ((argb.blue() & 0xff)));
+        return new Color(value);
+    }
+
     public int value(){
         return this.VALUE;
     }

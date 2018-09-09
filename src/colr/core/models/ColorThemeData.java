@@ -2,7 +2,9 @@ package colr.core.models;
 
 import colr.extensions.ColorUtil;
 
-public class ColorThemeData {
+import java.io.Serializable;
+
+public class ColorThemeData implements Serializable {
     public Color primary;
     public Color secondary;
     public Color accent;

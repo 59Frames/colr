@@ -18,22 +18,22 @@ public class ColorUtil {
 
     public static String hashHexCodeWithAlpha(Color color){
         ARGB argb = argbOf(color);
-        return String.format("#%02X%02X%02X%02X", argb.getAlpha(), argb.getRed(), argb.getGreen(), argb.getBlue());
+        return String.format("#%02X%02X%02X%02X", argb.alpha(), argb.red(), argb.green(), argb.blue());
     }
 
     public static String hashHexCode(Color color){
         ARGB argb = rgbOf(color);
-        return String.format("#%02X%02X%02X", argb.getRed(), argb.getGreen(), argb.getBlue());
+        return String.format("#%02X%02X%02X", argb.red(), argb.green(), argb.blue());
     }
 
     public static String hexaDeciCodeWithAlpha(Color color){
         ARGB argb = argbOf(color);
-        return String.format("0x%02X%02X%02X%02X", argb.getAlpha(), argb.getRed(), argb.getGreen(), argb.getBlue());
+        return String.format("0x%02X%02X%02X%02X", argb.alpha(), argb.red(), argb.green(), argb.blue());
     }
 
     public static String hexaDeciCode(Color color){
         ARGB argb = rgbOf(color);
-        return String.format("0x%02X%02X%02X", argb.getRed(), argb.getGreen(), argb.getBlue());
+        return String.format("0x%02X%02X%02X", argb.red(), argb.green(), argb.blue());
     }
 
     public static int brightness(Color color){

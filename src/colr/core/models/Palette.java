@@ -1,6 +1,8 @@
 package colr.core.models;
 
-public class Palette {
+import java.io.Serializable;
+
+public class Palette implements Serializable {
     private final Color[] colors;
 
     private String title;
@@ -39,7 +41,7 @@ public class Palette {
 
     public Color remove(Color color) {
         for (int i = 0; i < colors.length; i++) {
-            if (colors[i] == color)
+            if (colors[i].equals(color))
                 return remove(i);
         }
 

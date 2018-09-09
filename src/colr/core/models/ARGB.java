@@ -1,6 +1,8 @@
 package colr.core.models;
 
-public class ARGB {
+import java.io.Serializable;
+
+public class ARGB implements Serializable {
     private final int alpha;
     private final int red;
     private final int green;
@@ -20,19 +22,19 @@ public class ARGB {
         this.blue = blue;
     }
 
-    public int getAlpha() {
+    public int alpha() {
         return alpha;
     }
 
-    public int getRed() {
+    public int red() {
         return red;
     }
 
-    public int getGreen() {
+    public int green() {
         return green;
     }
 
-    public int getBlue() {
+    public int blue() {
         return blue;
     }
 

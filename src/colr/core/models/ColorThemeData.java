@@ -1,17 +1,19 @@
 package colr.core.models;
 
-public class ColorTheme {
+import colr.extensions.ColorUtil;
+
+public class ColorThemeData {
     public Color primary;
     public Color secondary;
     public Color accent;
     public Color font;
     public Color icon;
 
-    private ColorTheme(){
-        // private constructor to prevent initializing
+    private ColorThemeData(){
+        // private constructor to force initializing over Builder class
     }
 
-    private ColorTheme(Color primary, Color secondary, Color accent, Color font, Color icon) {
+    private ColorThemeData(Color primary, Color secondary, Color accent, Color font, Color icon) {
         this.primary = primary;
         this.secondary = secondary;
         this.accent = accent;
@@ -69,7 +71,7 @@ public class ColorTheme {
             return this;
         }
 
-        public ColorTheme build() {
+        public ColorThemeData build() {
             if (primary == null)
                 primary = new Color(0xFF9B59B6);
 
@@ -80,12 +82,12 @@ public class ColorTheme {
                 accent = primary.getContrastColor();
 
             if (font == null)
-                font = new Color(0xFF262626);
+                font = ColorUtil.brightness(primary) < 130 ? new Color(0xFFFEFEFE) : new Color(0xFF262626);
 
             if (icon == null)
-                icon = new Color(0xFFFEFEFE);
+                icon = ColorUtil.brightness(primary) < 130 ? new Color(0xFFFEFEFE) : new Color(0xFF262626);
 
-            return new ColorTheme(primary, secondary, accent, font, icon);
+            return new ColorThemeData(primary, secondary, accent, font, icon);
         }
     }
 }

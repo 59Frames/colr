@@ -3,7 +3,7 @@ package colr.extensions;
 import colr.core.models.ARGB;
 import colr.core.models.Color;
 
-public final class ColorUtil {
+public class ColorUtil {
     public static ARGB argbOf(Color color){
         return new ARGB(color.alpha(), color.red(), color.green(), color.blue());
     }
@@ -34,5 +34,13 @@ public final class ColorUtil {
     public static String hexaDeciCode(Color color){
         ARGB argb = rgbOf(color);
         return String.format("0x%02X%02X%02X", argb.getRed(), argb.getGreen(), argb.getBlue());
+    }
+
+    public static int brightness(Color color){
+        return (int) Math.sqrt(
+            (color.red() * color.red() * .241) +
+            (color.green() * color.green() * .691) +
+            (color.blue() * color.blue() * .068)
+        );
     }
 }

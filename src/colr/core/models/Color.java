@@ -35,6 +35,14 @@ public class Color implements Serializable {
         return sumThis > sumComp;
     }
 
+    public int brightness(){
+        return (int) Math.sqrt(
+            (this.red() * this.red() * .241) +
+            (this.green() * this.green() * .691) +
+            (this.blue() * this.blue() * .068)
+        );
+    }
+
     public boolean darkerThan(Color color){
         return !brighterThan(color);
     }

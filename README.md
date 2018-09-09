@@ -111,7 +111,7 @@ public class Main {
 - How to use a ColorTheme
 
 ```java
-import colr.core.models.ColorTheme;
+import colr.core.models.ColorThemeData;
 import colr.core.schemes.FlatColors;
 import colr.core.schemes.NatureColors;
 
@@ -129,8 +129,8 @@ public class Main {
         // 1. If no primary color is set, it takes a default color. Currently it is 0xFF9B59B6
         // 2. If no secondary color is set, it takes the primary color and makes it brighter by a given value. Currently by 32
         // 3. If no accent color is set, it creates a new color from the inverted primary color value
-        // 4. If no font color is set, it uses the default font color of 0xFF262626
-        // 5. If no icon color is set, it uses the default icon color of 0xFFFEFEFE
+        // 4. If no font color is set, it calculates the brightness and whether the result is higher than 130 it takes a darker or brighter color
+        // 5. If no icon color is set, it calculates the brightness and whether the result is higher than 130 it takes a darker or brighter color
         ColorTheme halfImplementedTheme = new ColorTheme.Builder()
                 .primary(NatureColors.CRIMSON)
                 .font(NatureColors.WHITE)

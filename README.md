@@ -173,7 +173,7 @@ Here are just a few examples:
 
 ## Authors
 
-**Daniel Seifert** - *Initial work* - [Brainker](https://github.com/Brainker)
+**Daniel Seifert** - *Initial work* - [59Frames](https://github.com/59Frames)
 
 ## Acknowledgments
 
